@@ -1,0 +1,432 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+body #page {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	background: none;
+}
+img {
+	border: none;
+}
+}
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+#header {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0 200px 0 200px;
+	
+}
+#header {
+	background-color: #D2B48C;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 41px 10px 27px;
+}
+#header div a.logo {
+	float: left;
+	margin: 0 0 0 29px;
+	padding: 0;
+	width: auto;
+}
+#header div a.logo img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul {
+	display: inline-block;
+	float: right;
+	list-style: none outside none;
+	margin: 0 auto;
+	padding: 17px 0 0;
+	text-align: center;
+	width: 513px;
+}
+#header div ul li {
+	display: inline-block;
+	*float: left;
+	margin: 0 35px;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#header div ul li a {
+	color: #000000;
+	font-family: "Caveat Brush", cursive;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#header div ul li a:hover, #header div ul li.menu:hover ul li a {
+	color: #cb3362;
+}
+#header div ul li ul li a {
+	color: #000000;
+	font-family: "Caveat Brush", cursive;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+#header div ul li.menu {
+	min-height: 35px;
+	z-index: 80;
+}
+#header div ul li.menu ul {
+	display: block;
+	float: none;
+	left: -99999px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 24px;
+	width: 106px;
+	z-index: 90;
+}
+#header div ul li.menu:hover ul.primary, #header div ul li.menu ul#selected.primary {
+	left: -30px;
+}
+#header div ul li.menu:hover ul.secondary, #header div ul li.menu ul#selected.secondary {
+	left: -27px;
+}
+#header div ul li.menu ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+#body.home {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#body.home div.header {
+	background-color: #FFEBCD;
+	margin: 0;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.header img {
+	display: block;
+	left: 50%;
+	margin: 0 auto 0 -563px;
+	padding: 0;
+	position: absolute;
+	width: 1126px;
+}
+#body.home div.header div {
+	margin: 0 auto;
+	max-width: 960px;
+	min-height: 660px;
+	padding: 0;
+	position: relative;
+}
+#body.home div.header div a {
+	background: url(../images/icons.png) no-repeat 0 -128px;
+	color: #FFFFFF;
+	display: block;
+	font-family: "Caveat Brush", cursive;
+	font-size: 24px;
+	font-weight: normal;
+	height: 99px;
+	line-height: 24px;
+	margin: 0;
+	padding: 52px 0 0;
+	position: absolute;
+	right: 130px;
+	text-align: center;
+	text-transform: uppercase;
+	top: 437px;
+	width: 156px;
+	z-index: 90;
+}
+#body.home div.body {
+	background-color: #FFEBCD;
+	margin: 0;
+	max-width: none;
+	padding: 0;
+	width: 100%;
+}
+#body.home div.body div {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 0;
+}
+#body.home div.body div div {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 40px;
+	width: 560px;
+}
+#body.home div.body div img {
+	display: block;
+	float: right;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+}
+#body.home div.body div div h1 {
+	color: #8B4513;
+	display: block;
+	font-family: "Caveat Brush", cursive;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 24px;
+	margin: 0;
+	padding: 47px 0 18px;
+	text-align: left;
+	text-transform: uppercase;
+	width: 560px;
+}
+#body.home div.body div div h2 {
+	color: #8B4513;
+	display: block;
+	font-family: "Caveat Brush", cursive;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 26px;
+	text-align: left;
+	text-transform: none;
+	width: 560px;
+}
+#body.home div.body div div p {
+	color: #8B4513;
+	display: block;
+	font-family: "Caveat Brush", cursive;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 560px;
+}
+#body.home div.body div div p a {
+	color: #7a6666;
+	display: block;
+	font-family: "Caveat Brush", cursive;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body.home div.body div div p a:hover {
+	color: #c8c10d;
+}
+#body {
+	background-color: #FFEBCD;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+#body div.header {
+	background-color: #FFEBCD;
+	margin: 0 auto;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+}
+#body div.header div {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0;
+}
+#body div.header div h1 {
+	color: #8B4513;
+	font-family: "Caveat Brush", cursive;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 28px 0 23px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#body div.body div {
+	background-color: #FFEBCD;
+	margin: 0;
+	max-width: none;
+	min-height: 249px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body div.body img {
+	display: block;
+	left: 50%;
+	margin: 0 auto 0 -507px;
+	padding: 0;
+	position: absolute;
+	width: 1014px;
+}
+#body div.about p{
+	color: #8B4513;
+	font-family: "Caveat Brush", cursive;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 28px;
+	margin: 0;
+	padding: 87px 50px 27px 30px;
+	line-height: 2;
+}
+#body div {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 7px 0 57px;
+}
+#body div ul {
+	display: inline-block;
+	list-style: none outside none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 22px;
+	width: 100%;
+}
+#body div ul li {
+	float: left;
+	margin: 0 10px;
+	padding: 0;
+	width: 220px;
+}
+#body div ul li p {
+	color: #8B4513;
+	font-family: roboto-regular-webfont;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 0 30px;
+	text-align: left;
+	width: 190px;
+}
+#body div ul li div.Title h1 {
+	color: #8B4513;
+	font-family: "Caveat Brush", cursive;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 28px;
+	margin: 0;
+	padding: 87px 0 27px 30px;
+	text-align: left;
+	text-transform: capitalize;
+}
+#body div ul li div.Title p{
+	color: #8B4513;
+	font-family: "Caveat Brush", cursive;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 0.5;
+	margin: 0;
+	padding: 87px 0 27px 30px;
+	text-align: left;
+	text-transform: capitalize;
+}
+#body div ul li p a {
+	color: #8B4513;
+	font-family: "Caveat Brush", cursive;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+#body div ul li img {
+	display: block;
+	margin: 0 auto 15px;
+	padding: 0;
+	width: auto;
+}
+#body div ul li h2 {
+	color: #8B4513;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Shadows Into Light", cursive;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 24px;
+}
+#explain.home {
+	background-color: #FFEBCD;
+	margin: 0;
+	padding: 5px 0;
+	width: 100%;
+}
+#explain.home div.title h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Caveat Brush", cursive;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 24px;
+}
+#explain.home div p {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Caveat Brush", cursive;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+}
+#footer {
+	background-color: #D2B48C;
+	margin: 0;
+	padding: 5px 0;
+	width: 100%;
+}
+#footer div p {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Caveat Brush", cursive;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 24px;
+}
+	
